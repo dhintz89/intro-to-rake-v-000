@@ -1,6 +1,5 @@
 task :environment do
-  require_relative
-  './config/environment'
+  require_relative './config/environment'
 end
   
 namespace :greeting do
